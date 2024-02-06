@@ -1,0 +1,6 @@
+<div *ngIf="jobs$ | async as jobs">
+    <ul>
+      <li *ngFor="let job of jobs">{{ job.name }}</li>
+    </ul>
+  </div>
+  
